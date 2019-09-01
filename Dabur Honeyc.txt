@@ -1,0 +1,38 @@
+#include<stdio.h>
+long long int ret(long long int n){
+long long int i;
+long long int result=n;
+
+
+for(i=2;i*i<=n;i++){
+if(n%i==0){
+while(n%i==0)
+n=n/i;
+result-=result/i;
+
+}
+}
+if(n!=1)
+result-=result/n;
+return result;
+}
+int main(){
+long long int t;
+scanf("%lld",&t);
+while(t--){
+long long int m,n;
+scanf("%lld %lld",&m,&n);
+int d=0;
+long long int a[2];
+a[d++]=ret(n);
+static long long int z=1;
+a[d++]=ret(m);
+if(a[0]>=a[1])
+printf("Case %lld: Swapnil lost it\n",z++);
+else
+printf("Case %lld: Shibli took it\n",z++);
+}
+return 0;
+}
+
+
