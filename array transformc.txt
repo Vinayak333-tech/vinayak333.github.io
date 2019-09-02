@@ -12,15 +12,37 @@ int main() {
 	    scanf("%d",&a[i]);
 	    int count=0;
 	    int rem=k+1;
+            int rem1=a[0]%rem;
+            int rem2=a[1]%rem;
+            int rem3=a[2]%rem;
 	    if(n==2)
 	    {
 	        printf("YES\n");
 	        continue;
 	    }
-	    for(i=0;i<n;i++){
-	        if((a[i+1]-a[i])%rem==0)
-	        count++;
-	    }
+	    else if(rem1==rem2)
+	    {count=2;
+	     for(i=2;i<n;i++)
+		{if(rem1==a[i]%rem)
+	           count++;
+		}
+	     }
+	    else if(rem1==rem3)
+	    {count=2;
+	     for(i=3;i<n;i++)
+		{if(rem1==a[i]%rem)
+	           count++;
+		}
+	     }
+		else if(rem2==rem3)
+	    {count=2;
+	     for(i=3;i<n;i++)
+		{if(rem2==a[i]%rem)
+	           count++;
+		}
+	     }
+	
+
 	    if(count>=n-1)
 	    printf("YES\n");
 	    else
