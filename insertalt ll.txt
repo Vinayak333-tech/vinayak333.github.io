@@ -1,0 +1,11 @@
+struct node *insertalt(struct node *root1,struct node *root2){
+struct node *temp;
+while(root1!=NULL&&root2!=NULL){
+temp=root2->next;
+root2->next=root1->next;
+root1>next=root2;
+root1=root2->next;
+root2=temp;
+}
+return root2;
+}
