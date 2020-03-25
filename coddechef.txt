@@ -1,0 +1,21 @@
+
+t=int(input())
+for j in range(t):
+    lis=[]
+    n=int(input())
+    
+    lis=list(map(int,input().split(' ')))
+    ma=max(lis)
+    li=lis.index(ma)
+    ri=li
+    for i in range(n):
+        if lis[i]==ma and i>=ri:
+            ri=i
+    span=ri-li+1
+    mid=n//2
+    if span>mid:
+      print(0)
+    else:
+      print(mid-span+1)
+
+    
