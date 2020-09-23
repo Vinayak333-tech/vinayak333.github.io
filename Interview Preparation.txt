@@ -1,0 +1,16 @@
+https://leetcode.com/discuss/general-discussion/844616/preparation-strategy-from-leetcode-important-questions
+https://tushars.xyz/data/os.html
+https://tushars.xyz/data/db.html
+https://tushars.xyz/data/cn.html
+https://github.com/prasadgujar/low-level-design-primer
+https://www.w3schools.com/sql/sql_exercises.asp
+https://github.com/MysteryVaibhav/leetcode_company_wise_questions
+https://www.edureka.co/blog/interview-questions/oops-interview-questions/
+https://leetcode.com/discuss/general-discussion/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions
+https://www.youtube.com/channel/UCUQjKo3h1fe-uzr_n6Bx7PQ/videos [ for most frequently asked leetcode question ]
+https://www.youtube.com/channel/UC5WO7o71wvxMxEtLRkPhiQQ [ for Dynamic programming, binary search, stack, recursion, and heap ] ( language: Hindi )
+https://www.youtube.com/user/tusharroy2525 [ for algorithms ]
+https://leetcode.com/discuss/general-discussion/754949/sorting-algorithms-in-short
+https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
+https://leetcode.com/discuss/general-discussion/849681/How-to-approach-DP-problems
+https://github.com/vineetjohn/daily-coding-problem/tree/master/solutions
